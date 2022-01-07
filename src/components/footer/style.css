@@ -1,0 +1,164 @@
+.footer{
+    margin-top: 80px;
+    width: 90%;
+    margin: 0 auto;
+}
+.footer .footer-top{
+    display: flex;
+    justify-content: space-between;
+}
+.footer .footer-top .logo-socials .socials{
+    display: flex;
+    justify-content: space-between;    
+}
+.footer .footer-top .logo-socials .socials *{
+    background: #0091FF;
+    border-radius: 8px;
+    color: #E8E8E8;
+    padding: 9px;
+    cursor: pointer;
+}
+.footer .footer-top .company{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.footer .footer-top h5{
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 19px;
+    letter-spacing: -0.227272px;
+    color: #041E8B;
+    margin-left: 15px;
+}
+.footer .footer-top ul li{
+    list-style: none;
+    font-family: Raleway;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.233333px;
+    color: #6D7278;
+    margin-left: -20px;
+}
+.footer .footer-top .map-contact{
+    background-image: url('../../assets/mapbg.png');
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.footer .footer-top .map-contact .contacts{
+    background: #FFFFFF;
+    width: 215px;
+    box-shadow: 0px 40px 400px rgba(0, 0, 0, 0.07);
+    border-radius: 8px;
+    align-self: center;
+    margin-top: -30px;
+    padding: 0px 20px;
+}
+.footer .footer-top .map-contact .contacts .contacts-icon{
+    color: #041E8B;
+    margin-right: 20px;
+}
+.footer .footer-top .map-contact .contacts div{
+    margin: 20px 0;
+}
+.footer .footer-top .map-contact .contacts a{
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 10px;
+    line-height: 12px;
+}
+.footer .footer-top .map-contact .contacts .phone a{
+    color: #0091FF;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: -5px;
+}
+.footer .footer-top .map-contact .contacts .mail a{
+    font-size: 12px;
+}
+
+.footer .cookies{
+    color: #041E8B;
+    font-family: Trueno;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    margin-bottom: -5px;
+}
+.footer .privacy-word{
+    font-family: Trueno;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    color: #6D7278;
+}
+.footer .privacy-word a{
+    text-decoration: none;
+    color: #041E8B;
+}
+.footer .copyright{
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 14px;
+    letter-spacing: 0.190476px;
+    color: #041E8B;
+    text-align: center
+    ;
+}
+
+.mobile-contact{
+    display: none;
+}
+
+
+/* Media Query */
+@media screen and (max-width:500px){
+    .footer .footer-top .map-contact{
+        display: none;
+    }
+    .footer .footer-top .company ul{
+        margin-top: -5px;
+    }
+    .mobile-contact{
+        display: block;
+        background: #F5F9FF;
+        width: 215px;
+        box-shadow: 0px 40px 400px rgba(0, 0, 0, 0.07);
+        border-radius: 8px;
+        padding: 5px 20px;
+        align-self: center;
+    }
+    .contacts-icon{
+        color: #041E8B;
+        margin-right: 20px;
+    }
+    .mobile-contact div{
+        margin: 20px 0;
+    }
+    .mobile-contact a{
+        text-decoration: none;
+        font-family: Raleway;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .phone a{
+        color: #0091FF;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 14px;
+        margin-top: -5px;
+    }
+     .mail a{
+        font-size: 12px;
+    }
+    .footer .copyright{
+        text-align: left;
+    }
+}

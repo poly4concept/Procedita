@@ -1,0 +1,15 @@
+.button{
+    background-image: url('../../assets/btn.png');
+    width: 245px;
+    height: 60px;
+    color: white;
+    outline: none;
+    border: none;
+    font-family: Trueno;
+    line-height: 19px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.button:hover{
+    background: #01114C;
+}
